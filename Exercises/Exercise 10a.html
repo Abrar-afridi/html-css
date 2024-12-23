@@ -1,79 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Exercise 10a</title>
-  <style>
-    .cat-pic {
-      width: 50px;
-      height: 50px;
-      display: flex;
-      flex-direction: column;
-      object-fit: cover;
-      border-radius: 25px;
-      vertical-align: middle;
-      margin-top: 2px;
-     margin-right: 5px
-    
-    }
-    .profile-name {
-      font-size: 18px;
-      font-family: Arial; 
-      margin-top: 0px;
-    padding-top: 10px ;
-    margin-right: 20px;
-      margin-bottom: 4px;
-      padding-left: 55px;
-    }
-    .name {
-    color: rgb(100, 100, 100);
-    margin-top: 2px;
-    margin-bottom: 12px;
-    padding-top: 0;
-    padding-left: 55px;
-    }
-    .popular {
-      color: rgb(100, 100, 100);
-     margin-top: 4px;
-     padding-top: 0;
-     padding-left: 55px;
-     
-     
-    }
-    .button {
-  background-color: rgb(29, 155, 240);
-  color: white;
-  border: none;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
-  border-radius: 5px;
-  font-size: 14px;
-  font-weight: bold;
-  vertical-align: middle;
-    
-    
-    }
-  </style>
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="../styles/ex-10a.css">
 </head>
 <body>
-  <div class="main-container">
-    <div class="cat-image">
-      <img class="cat-pic" src="../thumbnail/cat.jpg">
+  <div class="profile-card">
+    <div class="profile-image">
+      <img class="cat-image" src="../thumbnail/cat.jpg" alt="Profile Image">
     </div>
-    <div class="description-text">
-      <p class="profile-name">
-        oliver
-      </p>
-      <p class="name">
-        the cat
-      </p>
-      <p class="popular">
-        Popular
-      </p>
-      <button class="button">
-        Follow
-      </button>
+    <div class="profile-info">
+      <p class="profile-name">oliver</p>
+      <p class="name">the cat</p>
+      <p class="popular">Popular</p>
+    </div>
+    <div class="action">
+      <button class="button">Follow</button>
+    </div>
   </div>
 </body>
 </html>
