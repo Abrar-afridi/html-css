@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/****************************profile-card-1**********************/
+.Profile-card-1 {
+  display: flex;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+
+  .cat-image-1 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 12px; 
+  }
+  
+  .profile-name-1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .name-1 {
+    margin: 0;
+    color: rgb(100, 100, 100);
+    font-size: 1rem;
+  }
+  
+  .popular-1 {
+    margin: 0;
+    color: rgb(100, 100, 100);
+    font-size: 0.9rem;
+  }
+  
+  .buttons-1 {
+    background-color: rgb(47, 127, 231);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .text-container-1 {
+    width: 120px;
+  }
+  
+}
+
+/****************************profile-card-2**********************/
+
+
+.Profile-card-2 {
+  display: flex;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+
+  .cat-image-2 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 12px; 
+  }
+  
+  .profile-name-2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .name-2 {
+    margin: 0;
+    color: rgb(100, 100, 100);
+    font-size: 1rem;
+  }
+  
+  .popular-2 {
+    margin: 0;
+    color: rgb(100, 100, 100);
+    font-size: 0.9rem;
+  }
+  
+  .buttons-2 {
+    background-color: rgb(47, 127, 231);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .text-container-2 {
+    width: 120px;
+  }
+  
+}
+
+/****************************profile-card-3**********************/
+
+
+.Profile-card-3 {
+  display: flex;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+
+
+.cat-image-3 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 12px; 
+}
+
+.text-container-3 {
+  width: 120px;
+
+  .profile-name-3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .name-3 {
+    margin: 0;
+    color: rgb(100, 100, 100);
+    font-size: 1rem;
+  }
+  
+  .popular-3 {
+    margin: 0;
+    color: rgb(100, 100, 100);
+    font-size: 0.9rem;
+  }
+}
+
+.buttons-3 {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+}
+
+
